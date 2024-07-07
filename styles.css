@@ -1,0 +1,16 @@
+h2 {
+    font-family : cursive;
+    color: red;
+    background-color: black;
+}
+
+h3 {
+    font-family : cursive;
+    color: rgb(252, 9, 9);
+    background: rgb(12, 12, 12);
+}
+p {
+    font-family: cursive;
+}
+
+
