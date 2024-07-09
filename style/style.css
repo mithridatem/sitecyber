@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+/*Container Page stagaire*/
+.stagiaire {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgb(215, 215, 215) 1px;
+    padding: 20px;
+    border-radius: 30px;
+
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 20%;
+        align-self: center;
+    }
+}
+/*Menu navbar*/
+nav {
+    width: 99vw;
+
+    ul {
+        height: 8vh;
+        background-color: rgb(8, 115, 236);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li {
+            list-style: none;
+            font-size: 0.8rem;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: blue;
+            }
+        }
+    }
+}
+/*Container stagaires accueil*/
+.stagiaires {
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .stagiaire {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+
+        img {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a {
+            text-align: center;
+        }
+    }
+}
