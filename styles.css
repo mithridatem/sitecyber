@@ -12,5 +12,7 @@ h3 {
 p {
     font-family: cursive;
 }
-
-
+.imagedefond{ 
+  
+    background-image: url("image/riri.jpg");
+    }
